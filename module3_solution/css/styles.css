@@ -1,0 +1,99 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #5F9EA0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #2F4F4F;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-left: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #F0F8FF;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  line-height: .75;
+}
+
+.container {
+  width: 98%;
+}
+
+#main-content > div.heading > h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #F0F8FF;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #5F9EA0;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #F0F8FF;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+  color: #F0F8FF;
+  background-color: #2F4F4F;
+  box-shadow: 0 0 15px #F0F8FF;
+  border: 2px solid #F0F8FF;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    margin-top: -5px;
+    /* font-size: 5vw; /* 1vw = 1% of viewport width */ */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #F0F8FF;
+    color: #F0F8FF;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+  }
